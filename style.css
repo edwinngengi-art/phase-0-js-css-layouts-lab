@@ -14,7 +14,7 @@ body {
     justify-content: space-around;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2em; /* ✅ added */
+    padding: 2em;
 }
 
 /*Individual Breed Cards*/
@@ -22,8 +22,8 @@ body {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    padding: 15px;
-    margin: 1em; /* ✅ added */
+    padding: 1em; 
+    margin: 1em;
     flex: 1 1 300px;
     text-align: center;
     transition: transform 0.2s;
@@ -35,14 +35,14 @@ body {
 
 .cat-breed img {
     max-width: 100%;
-    height: auto; /* ✅ fixed */
+    height: auto;
     object-fit: cover;
     border-radius: 4px;
 }
 
 /*Text and Link styling*/
 .cat-breed h3 {
-    margin: 0.5em 0; /* ✅ fixed */
+    margin: 0.5em 0;
     color: #333;
 }
 
@@ -50,7 +50,7 @@ body {
     font-size: 0.9rem;
     color: #666;
     line-height: 1.5;
-    margin: 0.5em 0 1em; /* ✅ added */
+    margin: 0.5em 0 1em;
 }
 
 .cat-breed a {
@@ -75,6 +75,6 @@ body {
     }
 
     .cat-breed {
-        width: 90%;
+        flex: 1 1 100%; 
     }
 }
